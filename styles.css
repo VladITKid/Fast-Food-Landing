@@ -1,0 +1,1409 @@
+/* Скачанные Шрифты */
+
+/* rubik-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-300.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-300.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-300italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 300;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-300italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-300italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-regular.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 400;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-500.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-500.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-500italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 500;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-500italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-500italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-600.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-600italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 600;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-600italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-600italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-700.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-700italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 700;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-700italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-700italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-800.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-800.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-800italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 800;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-800italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-800italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-900.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-900.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* rubik-900italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 900;
+    src: url('./fonts/rubik-v30-latin/rubik-v30-latin-900italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./fonts/rubik-v30-latin/rubik-v30-latin-900italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* Переменные */
+:root {
+    --header-height: 160px;
+    --green-primary: #90E051;
+    --white-primary: #fff;
+    --transition-time: 1.2s;
+    --shadow: 0px 5.85px 36.55px -7.31px #00000040;
+}
+
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем стандартные стили для списков */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Убираем стандартные стили ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Убираем курсив у address и т.п. */
+em,
+i {
+    font-style: normal;
+}
+
+/* Для изображений */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Для кнопок */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Для таблиц */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Базовые настройки body */
+body {
+    font-family: Rubik, sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+}
+
+/* Теперь CSS */
+
+/* Оболочка */
+.wrapper {}
+
+/* Шапка */
+.header {
+    /* Позиция */
+    position: absolute;
+    /* позиция */
+    /* !  ВНИМАНИЕ: При необходимости поменять "absolute" на "fixed" для фиксированного позиционирования шапки на странице  */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    /* порядок слоёв */
+
+    /* Отображение */
+    display: grid;
+    /* тип отображения */
+    box-sizing: border-box;
+    /* модель блока */
+
+    /* Flex/Grid */
+    flex-direction: row;
+    /* направление flex */
+    justify-content: flex-start;
+    /* выравнивание по X */
+    align-items: stretch;
+    /* выравнивание по Y */
+    gap: 0;
+    /* отступ между элементами */
+    grid-template-columns: 4fr 10fr repeat(3, 1fr);
+
+    /* Размеры (адаптив) */
+    width: auto;
+    /* ширина */
+    min-width: 0;
+    /* мин. ширина */
+    max-width: 100%;
+    /* макс. ширина */
+    height: var(--header-height);
+    /* высота */
+    min-height: 0;
+    max-height: none;
+
+    /* Фон */
+    background-color: var(--white-primary);
+    /* цвет фона */
+
+    /* Шрифт */
+    font-family: inherit;
+    /* семейство шрифта */
+    font-size: 25px;
+    /* размер шрифта */
+    font-weight: 500;
+    /* жирность */
+    line-height: normal;
+    /* межстрочный */
+    text-align: left;
+    /* выравнивание текста */
+    color: inherit;
+    /* цвет текста */
+}
+
+.header__items--center {
+    grid-column: 2;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__items--right {
+    grid-column: 4;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item--right {
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.header__item-search {
+    background-image: url("./images/vector/header__item-search.svg");
+}
+
+.header__item-profile {
+    background-image: url("./images/vector/header__item-profile.svg");
+}
+
+.header__item-cart {
+    background-image: url("./images/vector/header__item-cart.svg");
+}
+
+/* Основная часть */
+.main {
+    margin-top: var(--header-height);
+}
+
+/* Основная часть (Домашняя страница) */
+.home {}
+
+/* Секция Домашней страницы */
+.home__section {}
+
+/* Первая секция */
+
+.home__section-1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: calc(100vh - var(--header-height));
+}
+
+/* Левая часть Первой секции */
+.home__section-1-left-part {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 110px;
+    max-width: 60em;
+    z-index: 20;
+}
+
+.home__section-1-left-part-title {
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 150px;
+}
+
+.home__section-1-left-part-title-word--green {
+    color: var(--green-primary);
+}
+
+.home__section-1-left-part-text {
+    width: 28em;
+    font-weight: 500;
+    font-size: 22.33px;
+}
+
+.home__section-1-left-part-buttons {
+    display: flex;
+    gap: 4em;
+    margin-top: 5em;
+}
+
+.home__section-1-left-part-button {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 29.4px;
+    line-height: 48.54px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+.home__section-1-left-part-button--filled {
+    width: 246px;
+    height: 88px;
+    border-radius: 20px;
+    color: var(--white-primary);
+    background-color: var(--green-primary);
+
+}
+
+.home__section-1-left-part-button--unfilled {
+    color: var(--green-primary);
+}
+
+/* Правая часть Первой секции */
+.home__section-1-right-part {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 110px;
+    max-width: 60em;
+    z-index: 18;
+}
+
+.home__section-1-right-part-price {
+    position: absolute;
+    top: 0;
+    left: -3em;
+    width: 151px;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-primary);
+    background-color: var(--green-primary);
+    font-weight: 700;
+    font-size: 34.65px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+.home__section-1-right-part-burger-image {
+    position: relative;
+    top: 3em;
+    width: 673px;
+    height: 673px;
+    background-color: var(--green-primary);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.home__section-1-right-part-burger-image::before {
+    content: '';
+    position: absolute;
+    top: .6em;
+    left: -8.5em;
+    width: 765px;
+    height: 616px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/raster/burger-image-1st.png");
+    z-index: 2;
+}
+
+/* Вторая секция */
+
+.home__section-2 {
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Элементы второй секции */
+.home__section-2-items {
+    display: flex;
+    gap: 6em;
+}
+
+.home__section-2-item {
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    font-weight: 600;
+    font-size: 15.94px;
+    line-height: 21.26px;
+    letter-spacing: 0%;
+    background-position: top;
+    background-size: 80px auto;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.home__section-2-item--1st {
+    background-image: url("./images/vector/home__section-2-item--1st.svg");
+}
+
+.home__section-2-item--2nd {
+    background-image: url("./images/vector/home__section-2-item--2nd.svg");
+
+}
+
+.home__section-2-item--3rd {
+    background-image: url("./images/vector/home__section-2-item--3rd.svg");
+
+}
+
+.home__section-2-item--4th {
+    background-image: url("./images/vector/home__section-2-item--4th.svg");
+
+}
+
+.home__section-2-item-number {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 26.57px;
+    line-height: 31.89px;
+    letter-spacing: 0%;
+}
+
+/* Третья секция */
+
+.home__section-3 {
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Левая часть Третьей секции */
+.home__section-3-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: inherit;
+}
+
+.home__section-3-left-part-burger-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 725px;
+    height: 725px;
+    border-radius: 100%;
+    border-style: dashed;
+    border-color: var(--green-primary);
+    border-width: 2px;
+    z-index: 1;
+}
+
+.home__section-3-left-part-burger-image::before {
+    content: '';
+    position: absolute;
+    left: -20%;
+    margin-top: 1em;
+    width: 765px;
+    height: 616px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/raster/burger-image-1st.png");
+    z-index: 2;
+}
+
+.home__section-3-left-part-word {
+    position: absolute;
+    left: 650px;
+    margin-bottom: 2.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 146px;
+    width: 136px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 55.9px;
+    line-height: 110%;
+    color: var(--white-primary);
+    background-color: var(--green-primary);
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.home__section-3-left-part-word::before {
+    content: '';
+    position: absolute;
+    left: -90%;
+    top: -130%;
+    width: calc(765px*0.2);
+    height: calc(616px*0.2);
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/raster/burger-image-2nd.png");
+    z-index: 2;
+}
+
+.home__section-3-left-part-word::after {
+    content: '';
+    position: absolute;
+    left: -20%;
+    bottom: -140%;
+    margin-top: 1em;
+    width: calc(765px*0.2);
+    height: calc(616px*0.2);
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/raster/burger-image-1st.png");
+    z-index: 2;
+}
+
+/* Правая часть Третьей секции */
+.home__section-3-right-part {
+    grid-column: 2;
+    position: absolute;
+    right: 6em;
+    z-index: 20;
+    transform: scale(110%);
+}
+
+/* Разворачиваю Правую часть Третьей секции */
+.home__section-3-right-part--expanded {
+    right: 4em;
+    transform: scale(100%);
+}
+
+/* Элемент со списком товаров (зелёный, прямоугольный, разворачивающийся) */
+.home__section-3-right-part-products {
+    grid-row: 2;
+    position: relative;
+    flex-direction: column;
+    padding: 2em 3em;
+    border-radius: 70px;
+    background-color: var(--green-primary);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+
+}
+
+/* Элементы Формы */
+/* #1 Форма для поиска товаров */
+.home__section-3-right-part-products-form {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    width: 16em;
+    height: 3em;
+    border-radius: 1.2em;
+    padding: 1em;
+}
+
+/* Скрываю форму для поиска товаров */
+.home__section-3-right-part-products-form--inactive {
+    opacity: 0;
+    pointer-events: none;
+    height: 0;
+    margin-bottom: -4em;
+}
+
+/* #2 Кнопка поиска товаров */
+.home__section-3-right-part-products-form-btn {
+    width: 1.6em;
+    height: 1.6em;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/vector/search.svg");
+    cursor: pointer;
+}
+
+/* #3 Поле для ввода */
+.home__section-3-right-part-products-form-input {
+    width: 100%;
+}
+
+/* Элементы Свёрнутого Состояния */
+/* #1 Градиент-контейнер */
+.home__section-3-right-part-products-gradient {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    justify-content: center;
+    align-items: end;
+    border-radius: inherit;
+    background-image: linear-gradient(transparent 30%, #ffffff6d 40%, var(--green-primary) 100%);
+    /* Стили, изменяемые состоянием */
+    pointer-events: all;
+    opacity: 1;
+    transition: var(--transition-time);
+}
+
+/* (Скрыть градиент-контейнер) */
+.home__section-3-right-part-products-gradient--inactive {
+    /* Стили, изменяемые состоянием */
+    pointer-events: none;
+    opacity: 0;
+    transition: var(--transition-time);
+}
+
+/* #2 Кнопка "Увидеть всё" */
+.home__section-3-right-part-products-see-all-btn {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 10em;
+    height: 2.5em;
+    border-radius: .6em;
+    margin-bottom: 2.2em;
+    color: var(--green-primary);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Сетка с карточками */
+.home__section-3-right-part-products-items-grid {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 2em;
+}
+
+/* Сетка с карточками — Развёрнутое состояние */
+.home__section-3-right-part-products-items-grid--expanded {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Карточка товара */
+.home__section-3-right-part-products-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 35px;
+    grid-template-rows: repeat(4, auto);
+    width: 232px;
+    height: 253px;
+    background-color: var(--white-primary);
+    border-radius: 10%;
+    box-shadow: var(--shadow);
+    padding: 4.6em 1.5em 1.5em 1.5em;
+    /* Отступ сверху из-за абсолютных картинок */
+    margin-top: 4.5em;
+}
+
+/* Карточка товара — для скрываемых карточек */
+.home__section-3-right-part-products-item--inactive {
+    display: none;
+}
+
+/* Картинки на карточках */
+/* #1 ЧИКЕН-бургер */
+.home__section-3-right-part-products-item--chicken-burger::after {
+    content: '';
+    position: absolute;
+    width: 232px;
+    height: 118px;
+    top: -3em;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/raster/burger-image-1st.png");
+}
+
+/* #1 ЧИЗ-бургер */
+.home__section-3-right-part-products-item--cheese-burger::after {
+    content: '';
+    position: absolute;
+    width: 232px;
+    height: 118px;
+    top: -3em;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/raster/burger-image-2nd.png");
+}
+
+/* Заголовок */
+.home__section-3-right-part-products-item-title {
+    grid-column: 1/-1;
+    grid-row: 1;
+    font-weight: 700;
+    font-size: 16.79px;
+    line-height: 100%;
+    letter-spacing: -2.5%;
+}
+
+/* Текст */
+.home__section-3-right-part-products-item-text {
+    grid-column: 1/-1;
+    grid-row: 2;
+    font-weight: 500;
+    margin: 1em 0 1em 0;
+    font-size: 14px;
+    letter-spacing: -2.5%;
+}
+
+/* Рейтинг */
+.home__section-3-right-part-products-item-rating {
+    grid-column: 1/-1;
+    grid-row: 3;
+    font-size: 15.6px;
+    padding-left: 2em;
+    padding-top: .5em;
+    background-position: left;
+    background-size: 1.4em;
+    background-repeat: no-repeat;
+    background-image: url("./images/vector/star__yellow.svg");
+}
+
+/* Цена */
+.home__section-3-right-part-products-item-price {
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 19.6px;
+    color: var(--green-primary);
+    margin-top: .25em;
+}
+
+.home__section-3-right-part-products-item-price-small-number {
+    grid-column: -1;
+    grid-row: 4;
+    font-size: .8em;
+    margin-left: -4px;
+}
+
+/* Кнопка на карточке (зелёная, круглая) */
+.home__section-3-right-part-products-item-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: var(--green-primary);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-image: url("./images/vector/union.svg");
+    cursor: pointer;
+}
+
+/* Четвёртая секция */
+
+.home__section-4 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    align-items: center;
+    justify-content: end;
+}
+
+/* Левая половина Четвёртой секции */
+.home__section-4-left-part {
+    grid-column: 1;
+    position: absolute;
+    left: 8em;
+    z-index: 20;
+    max-width: 45em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+/* Заголовок Четвёртой секции */
+.home__section-4-left-part-title {
+    font-size: 60.46px;
+    font-weight: 700;
+}
+
+/* Текст отзыва */
+.home__section-4-left-part-text {
+    font-size: 1.2em;
+    color: #828282;
+}
+
+/* Переключатель с покупателями */
+.home__section-4-left-part-toggle {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: .5em repeat(2, 2em) 1.5em;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    padding-left: 7.5em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6em;
+    background-image: url("./images/raster/customer-abdur-rahman.png");
+}
+
+.home__section-4-left-part-toggle-name {
+    grid-column: 1;
+    grid-row: 2;
+    color: var(--green-primary);
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
+
+.home__section-4-left-part-toggle-customer {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 1.2em;
+    color: #828282;
+}
+
+/* Кнопки-стрелки */
+.home__section-4-left-part-toggle-arrows {
+    grid-column: 2;
+    grid-row: 1/-1;
+    height: inherit;
+    display: flex;
+    gap: .3em;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Кнопка-стрелка */
+.home__section-4-left-part-toggle-arrow {
+    height: 2em;
+    width: 2em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./images/vector/arrow.svg");
+    cursor: pointer;
+}
+
+/* Левая кнопка-стрелка */
+.home__section-4-left-part-toggle-arrow--left {
+    transform: rotate(-180deg) translateY(1px);
+}
+
+/* Неактивная кнопка-стрелка */
+.home__section-4-left-part-toggle-arrow--inactive {
+    opacity: .5;
+    pointer-events: none;
+}
+
+/* Правая половина Четвёртой секции (с фоном гамбургера) */
+.home__section-4-right-part {
+    grid-column: 2;
+    position: relative;
+    width: 100%;
+    height: 40em;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80%;
+    background-image: url("images/raster/home__section-4-right-part-image.png");
+}
+
+/* Карточка Четвёртой секции */
+.home__section-4-right-part-card {
+    display: grid;
+    grid-template-rows: 1fr repeat(3, auto) 1fr;
+    grid-template-columns: 1fr auto;
+    gap: 1em;
+    height: 16em;
+    width: 34em;
+    padding: 0 2.2em;
+    background-color: #fff;
+    border-radius: 1em;
+    box-shadow: var(--shadow);
+}
+
+/* Заголовок карточки Четвёртой секции */
+.home__section-4-right-part-card-title {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.8em;
+    line-height: 1em;
+    margin-top: .5em;
+    font-weight: 700;
+}
+
+/* Цена */
+.home__section-4-right-part-card-price {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #535353;
+    margin-bottom: .5em;
+}
+
+/* Рейтинг */
+.home__section-4-right-part-card-rating {
+    grid-column: 1/-1;
+    grid-row: 3;
+    height: 1.5em;
+    width: calc((1.5em*6 + 0.3em));
+    background-repeat: space;
+    background-position: center;
+    background-size: contain;
+    background-image: url("images/vector/star__green.svg");
+}
+
+/* Текст карточки */
+.home__section-4-right-part-card-text {
+    grid-column: 1/-1;
+    grid-row: 4;
+    font-size: 1.2em;
+    color: #828282;
+    padding: .35em 0;
+}
+
+/* Пятая секция */
+.home__section-5 {
+    position: relative;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: end;
+}
+
+/* Буквально "Зелёный прямоугольник" с заголовком, мокапом и гамбургерами */
+.home__section-5-green-rectangle {
+    position: relative;
+    background-color: var(--green-primary);
+    color: #fff;
+    width: 100%;
+    height: 374px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* От него зависят и размер заголовка и отступы */
+    font-size: 2.2em;
+}
+
+/* Гамбургеры по краям */
+.home__section-5-green-rectangle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 65%;
+    z-index: 16;
+    height: 8em;
+    width: 8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("images/raster/burger-image-3rd.png");
+}
+
+.home__section-5-green-rectangle::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 16;
+    height: 8em;
+    width: 8em;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-image: url("images/raster/burger-image-4th.png");
+}
+
+/* Мокап телефона и его копия-псевдоэлемент  */
+.home__section-5-mockup {
+    position: absolute;
+    z-index: 18;
+    margin-right: 15em;
+    display: flex;
+    align-items: center;
+    height: calc(660px/1.2);
+    width: calc(305px/1.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("images/raster/mockup.png");
+}
+
+.home__section-5-mockup::before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -.6em;
+    z-index: inherit;
+    height: 660px;
+    width: 305px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("images/raster/mockup.png");
+}
+
+/* Заголовок */
+.home__section-5-title {
+    max-width: 12em;
+    margin-bottom: .5em;
+    margin-left: 9em;
+}
+
+/* Шестая секция */
+.home__section-6 {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5fr auto 8fr auto 2fr;
+    grid-template-rows: 55% auto 1fr;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: 52em;
+    background-image: url("images/raster/home__section-6-card-image.png");
+}
+
+/* Карточка Шестой секции */
+.home__section-6-card {
+    grid-row: 2;
+    grid-column: 2;
+
+    font-size: 1.1em;
+    /* Регуляция масштаба карточки */
+    display: grid;
+    grid-template-rows: 1fr repeat(2, auto) 1fr;
+    gap: 1em;
+    height: 15em;
+    width: 29em;
+    padding: 0 1.4em;
+    background-color: #fff;
+    border-radius: 1em;
+    box-shadow: var(--shadow);
+}
+
+/* Заголовок карточки Шестой секции */
+.home__section-6-card-title {
+    position: relative;
+    grid-row: 2;
+    font-size: 1.8em;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+/* Гамбургер-псевдоэлемент над заголовком Карточки Шестой секции  */
+.home__section-6-card-title::before {
+    content: '';
+    position: absolute;
+    top: -4em;
+    left: -2.6em;
+    z-index: 16;
+    height: 4.4em;
+    width: 4.4em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("images/raster/burger-image-2nd.png");
+    transform: rotate(-18deg);
+}
+
+/* Текст карточки */
+.home__section-6-card-text {
+    grid-row: 3;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #828282;
+    padding: .35em 0;
+}
+
+
+/* Зелёный круг с гамбургером */
+.home__section-6-burger-image {
+    grid-row: 2;
+    grid-column: 4;
+
+    position: relative;
+    z-index: 10;
+    height: 10em;
+    width: 10em;
+    background-color: var(--green-primary);
+    border-radius: 100%;
+}
+
+.home__section-6-burger-image::before {
+    content: '';
+    position: absolute;
+    left: -2.2em;
+    top: -1em;
+    width: 11.4em;
+    height: 11.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: url("./images/raster/burger-image-1st.png");
+}
+
+/* Подвал */
+.footer {
+    color: #fff;
+    height: 680px;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr) 1fr;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 4em;
+    align-items: start;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: linear-gradient(#fff 20%, #00000086 20% 100%), url("images/raster/footer.png");
+}
+
+/* Раздел с подпиской в Подвале */
+.footer__subscribe {
+    grid-column: 2/-2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr auto 30fr auto 1fr;
+    justify-content: center;
+    gap: 4em;
+    align-items: center;
+    width: 80vw;
+    height: 13em;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    border-radius: 1em;
+    z-index: 16;
+}
+
+/* Заголовок */
+.footer__subscribe-title {
+    grid-column: 2;
+    color: var(--green-primary);
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+/* Форма для ввода почтового адреса */
+.footer__subscribe-form {
+    grid-column: 3;
+    display: flex;
+    position: relative;
+    height: 4em;
+}
+
+/* Поле для ввода */
+.footer__subscribe-form-input {
+    height: inherit;
+    width: 100%;
+    border-top: 2px solid var(--green-primary);
+    border-left: 2px solid var(--green-primary);
+    border-bottom: 2px solid var(--green-primary);
+    padding: 0 1em;
+    font-weight: 400;
+}
+
+.footer__subscribe-form-input::placeholder {
+    color: var(--green-primary);
+}
+
+/* Кнопка подписки */
+.footer__subscribe-form-btn {
+    width: 20em;
+    font-weight: 400;
+    height: inherit;
+    color: #fff;
+    background-color: var(--green-primary);
+}
+
+/* Ссылки на соцсети */
+.footer__subscribe-socials {
+    grid-column: 4;
+    display: flex;
+    gap: .5em;
+}
+
+.footer__subscribe-socials-item {
+    width: 2.4em;
+    height: 2.4em;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: .5em;
+    background-color: var(--green-primary);
+}
+
+.footer__subscribe-socials-item--facebook {
+    background-image: url('images/vector/socials-facebook.svg');
+    background-size: 35%;
+}
+
+.footer__subscribe-socials-item--twitter {
+    background-image: url('images/vector/socials-twitter.svg');
+    background-size: 60%;
+}
+
+.footer__subscribe-socials-item--instagram {
+    background-image: url('images/vector/socials-instagram.svg');
+    background-size: 60%;
+}
+
+.footer__subscribe-socials-item--youtube {
+    background-image: url('images/vector/socials-youtube.svg');
+    background-size: 70%;
+}
+
+/* Раздел с навигацией в Подвале */
+.footer__explore {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/* Заголовки */
+.footer__title {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+/* Ссылки в разделе с навигацией в Подвале */
+.footer__explore-links {
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: repeat(2, 12em);
+    grid-template-rows: repeat(3, 1em);
+    grid-auto-flow: column;
+    gap: 2em;
+}
+
+.footer__explore-link {
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1em;
+    padding-left: 1.6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("images/vector/arrow-link.svg");
+    cursor: pointer;
+}
+
+/* Раздел с контактной информацией в Подвале */
+.footer__contact-us {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* Список элементов с контактной информацией */
+.footer__contact-us-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+    padding-top: 1.2em;
+}
+
+.footer__contact-us-item {
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1em;
+    padding-left: 1.6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.footer__contact-us-item--location {
+    background-image: url("images/vector/pin-location.svg");
+}
+
+.footer__contact-us-item--call {
+    background-image: url("images/vector/pin-call.svg");
+}
+
+.footer__contact-us-item--sms {
+    background-image: url("images/vector/pin-sms.svg");
+}
+
+.footer__contact-us-item--watch {
+    background-image: url("images/vector/pin-watch.svg");
+}

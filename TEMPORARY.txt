@@ -1,0 +1,73 @@
+/* Позиция */
+  position: relative; /* позиция */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1; /* порядок слоёв */
+
+  /* Отображение */
+  display: block; /* тип отображения */
+  visibility: visible;
+  overflow: visible; /* прокрутка/обрезка */
+  box-sizing: border-box; /* модель блока */
+
+  /* Flex/Grid */
+  flex-direction: row; /* направление flex */
+  justify-content: flex-start; /* выравнивание по X */
+  align-items: stretch; /* выравнивание по Y */
+  gap: 0; /* отступ между элементами */
+
+  /* Размеры (адаптив) */
+  width: auto; /* ширина */
+  min-width: 0; /* мин. ширина */
+  max-width: 100%; /* макс. ширина */
+  height: auto; /* высота */
+  min-height: 0;
+  max-height: none;
+
+  /* Margin */
+  margin: 0; /* внешний отступ */
+
+  /* Padding */
+  padding: 0; /* внутренний отступ */
+
+  /* Бордер */
+  border: none; /* рамка */
+  border-radius: 0; /* скругление */
+
+  /* Фон */
+  background-color: transparent; /* цвет фона */
+  background-position: center; /* позиция фона */
+  background-size: cover; /* размер фона */
+
+  /* Тень */
+  box-shadow: none; /* тень */
+
+  /* Шрифт */
+  font-family: inherit; /* семейство шрифта */
+  font-size: 16px; /* размер шрифта */
+  font-weight: normal; /* жирность */
+  line-height: normal; /* межстрочный */
+  text-align: left; /* выравнивание текста */
+  color: inherit; /* цвет текста */
+
+  /* Текст: перенос/обрезка */
+  white-space: nowrap; /* без переноса */
+  overflow: hidden; /* скрыть лишнее */
+  text-overflow: ellipsis; /* троеточие */
+  word-break: break-word; /* перенос слов */
+
+  /* Списки */
+  list-style-type: none; /* тип маркера */
+
+  /* Курсор */
+  cursor: default; /* курсор */
+  user-select: auto; /* выделение текста */
+
+  /* Анимация */
+  transition: none; /* переходы */
+
+  /* Разное */
+  opacity: 1; /* прозрачность */
+  transform: none; /* трансформация */

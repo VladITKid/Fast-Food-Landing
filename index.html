@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tasty Food Collections</title>
+
+</head>
+
+<body>
+    <!-- Оболочка -->
+    <div class="wrapper">
+        <!-- Шапка -->
+        <div class="header">
+            <div class="header__items header__items--center">
+                <a href="#" class="header__item" id="ToHome">Home</a>
+                <a href="#" class="header__item" id="ToOurMenu">Menu</a>
+                <a href="#" class="header__item" id="ToAboutUs">About</a>
+                <a href="#" class="header__item" id="ToShop">Shop</a>
+            </div>
+            <div class="header__items header__items--right">
+                <button class="header__item header__item--right header__item-search" title="Поиск по сайту"></button>
+                <button class="header__item header__item--right header__item-profile" title="Профиль"></button>
+                <button class="header__item header__item--right header__item-cart" title="Тележка"></button>
+            </div>
+        </div>
+        <!-- Основная часть (Домашняя страница) -->
+        <main class="main home" id="Home">
+            <!-- Первая секция -->
+            <section class="home__section home__section-1" id="HomeSection1">
+                <!-- Левая часть первой секции -->
+                <div class="home__section-1-left-part">
+                    <!-- Заголовок первой секции -->
+                    <h1 class="home__section-1-left-part-title">
+                        Tasty Food
+                        <span
+                            class="home__section-1-left-part-title-word home__section-1-left-part-title-word--green">Collections</span>
+                    </h1>
+                    <!-- Текст первой секции -->
+                    <p class="home__section-1-left-part-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Varius sed pharetra dictum neque massa congue
+                    </p>
+                    <!-- Кнопки первой секции -->
+                    <div class="home__section-1-left-part-buttons">
+                        <button class="home__section-1-left-part-button home__section-1-left-part-button--filled">See
+                            All</button>
+                        <button
+                            class="home__section-1-left-part-button home__section-1-left-part-button--unfilled">Menu</button>
+                    </div>
+                </div>
+                <!-- Правая часть первой секции -->
+                <div class="home__section-1-right-part">
+                    <span class="home__section-1-right-part-price">$22.53</span>
+                    <span class="home__section-1-right-part-burger-image"></span>
+                </div>
+            </section>
+            <!-- Вторая секция -->
+            <section class="home__section home__section-2" id="HomeSection2">
+                <!-- Элементы второй секции -->
+                <div class="home__section-2-items">
+                    <span class="home__section-2-item home__section-2-item--1st">
+                        Professional Chefs
+                        <span class="home__section-2-item-number">420</span>
+                    </span>
+                    <span class="home__section-2-item home__section-2-item--2nd">
+                        Items Of Food
+                        <span class="home__section-2-item-number">320</span>
+                    </span>
+                    <span class="home__section-2-item home__section-2-item--3rd">
+                        Years Of Experienced
+                        <span class="home__section-2-item-number">30+</span>
+                    </span>
+                    <span class="home__section-2-item home__section-2-item--4th">
+                        Happy Customers
+                        <span class="home__section-2-item-number">220</span>
+                    </span>
+                </div>
+            </section>
+            <!-- Третья секция -->
+            <section class="home__section home__section-3" id="HomeSection3">
+                <!-- Левая часть Третьей секции -->
+                <div class="home__section-3-left-part">
+                    <span class="home__section-3-left-part-burger-image"></span>
+                    <span class="home__section-3-left-part-word">Me<br>nu</span>
+                </div>
+                <!-- Правая часть Третьей секции -->
+                <div class="home__section-3-right-part">
+                    <!-- Элемент со списком товаров (зелёный, прямоугольный, разворачивающийся) -->
+                    <div class="home__section-3-right-part-products">
+                        <!-- Градиент-контейнер -->
+                        <div class="home__section-3-right-part-products-gradient">
+                            <!-- Кнопка "Увидеть всё" -->
+                            <button class="home__section-3-right-part-products-see-all-btn">see all</button>
+                        </div>
+                        <!-- Форма для поиска товаров -->
+                        <form action="/search" method="get" class="home__section-3-right-part-products-form">
+                            <!-- Кнопка поиска товаров -->
+                            <button type="submit" title="Поиск по сайту"
+                                class="home__section-3-right-part-products-form-btn"></button>
+                            <!-- Поле для ввода -->
+                            <input type=" search" id="search" name="q" placeholder="Search"
+                                class="home__section-3-right-part-products-form-input">
+                        </form>
+                        <!-- Список товаров -->
+                        <div class="home__section-3-right-part-products-items-grid">
+                            <!-- Элементы списка товаров -->
+                            <!-- #1 -->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div
+                                class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div
+                                class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- #2 -->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div
+                                class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div
+                                class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+
+                            <!-- #3 -->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- #4 -->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+
+                            <!-- #5 -->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- #6-->
+                            <!-- — — — — — — — — — — — — — — — — — — — — -->
+                            <!-- "Чикен бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--chicken-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чикен бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">5.3</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 22.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">53</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                            <!-- "Чиз бургер" -->
+                            <div class="home__section-3-right-part-products-item home__section-3-right-part-products-item--cheese-burger"
+                                id="hidingCards">
+                                <!-- (Изображение товара на карточке добавлено через псевдоэлемент) -->
+                                <!-- Заголовок карточки -->
+                                <h4 class="home__section-3-right-part-products-item-title">Чиз бургер</h4>
+                                <!-- Текст карточки -->
+                                <p class="home__section-3-right-part-products-item-text">
+                                    200 гр. котлеты + сырный салат + лук + томаты
+                                </p>
+                                <!-- Рейтинг товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-rating"
+                                    title="Рейтинг товара">4.9</span>
+                                <!-- Цена товара на карточке -->
+                                <span class="home__section-3-right-part-products-item-price">
+                                    $ 23.
+                                    <span class="home__section-3-right-part-products-item-price-small-number">99</span>
+                                </span>
+                                <!-- Кнопка на карточке (зелёная, круглая) -->
+                                <button class="home__section-3-right-part-products-item-btn"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Четвёртая секция -->
+            <section class="home__section home__section-4" id="HomeSection4">
+
+                <!-- Левая половина Четвёртой секции -->
+                <div class="home__section-4-left-part">
+                    <!-- Заголовок Четвёртой секции -->
+                    <h2 class="home__section-4-left-part-title">Customer Review</h2>
+                    <!-- Текст отзыва -->
+                    <p class="home__section-4-left-part-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non
+                        dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id
+                        elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in
+                        consequat.
+                    </p>
+                    <!-- Переключатель с покупателями -->
+                    <div class="home__section-4-left-part-toggle">
+                        <h4 class="home__section-4-left-part-toggle-name">Abdur Rahman</h4>
+                        <span class="home__section-4-left-part-toggle-customer">Customer</span>
+                        <!--  Кнопки-стрелки   -->
+                        <div class="home__section-4-left-part-toggle-arrows">
+                            <button
+                                class="home__section-4-left-part-toggle-arrow home__section-4-left-part-toggle-arrow--left home__section-4-left-part-toggle-arrow--inactive"></button>
+                            <button
+                                class="home__section-4-left-part-toggle-arrow home__section-4-left-part-toggle-arrow--right"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Правая половина Четвёртой секции (с фоном гамбургера) -->
+                <div class="home__section-4-right-part">
+                    <!-- Карточка Четвёртой секции -->
+                    <div class="home__section-4-right-part-card">
+                        <!-- Заголовок карточки Четвёртой секции -->
+                        <h4 class="home__section-4-right-part-card-title">Order now</h4>
+                        <!-- Цена -->
+                        <h4 class="home__section-4-right-part-card-price">10.00$</h4>
+                        <!-- Рейтинг -->
+                        <div class="home__section-4-right-part-card-rating"></div>
+                        <!-- Текст карточки -->
+                        <p class="home__section-4-right-part-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum
+                            non dui volutpat fringilla bibendum. Urna, elit augue urna,
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Пятая секция -->
+            <section class="home__section home__section-5" id="HomeSection5">
+                <!-- Буквально "Зелёный прямоугольник" с заголовком, мокапом и гамбургерами -->
+                <div class="home__section-5-green-rectangle">
+                    <!-- Мокап телефона и его копия-псевдоэлемент -->
+                    <div class="home__section-5-mockup"></div>
+                    <!-- Заголовок -->
+                    <h2 class="home__section-5-title">Now With Your Favotite Mobile Applivation In Your Pocket</h2>
+                </div>
+            </section>
+            <!-- Шестая секция -->
+            <section class="home__section home__section-6" id="HomeSection6">
+                <!-- Карточка Шестой секции -->
+                <div class="home__section-6-card">
+                    <!-- Заголовок карточки Шестой секции -->
+                    <h4 class="home__section-6-card-title">About Us</h4>
+                    <!-- Текст карточки -->
+                    <p class="home__section-6-card-text">
+                        Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+                <!-- Зелёный круг с гамбургером -->
+                <div class="home__section-6-burger-image"></div>
+            </section>
+        </main>
+        <!-- Подвал -->
+        <footer class="footer">
+            <!-- Раздел с подпиской в Подвале -->
+            <div class="footer__subscribe">
+                <!-- Заголовок -->
+                <h2 class="footer__subscribe-title">Subscribe<br>To Our Newsletter</h2>
+                <!-- Форма для ввода почтового адреса -->
+                <form action="/email" method="get" class="footer__subscribe-form">
+                    <!-- Поле для ввода -->
+                    <input type=" search" id="search" name="q" placeholder="Enter your mail"
+                        class="footer__subscribe-form-input">
+                    <!-- Кнопка подписки -->
+                    <button type="submit" title="Подписаться на рассылку" class="footer__subscribe-form-btn">Subscribe
+                        now</button>
+                </form>
+                <!-- Ссылки на соцсети -->
+                <div class="footer__subscribe-socials">
+                    <a href="#" class="footer__subscribe-socials-item footer__subscribe-socials-item--facebook"></a>
+                    <a href="#" class="footer__subscribe-socials-item footer__subscribe-socials-item--twitter"></a>
+                    <a href="#" class="footer__subscribe-socials-item footer__subscribe-socials-item--instagram"></a>
+                    <a href="#" class="footer__subscribe-socials-item footer__subscribe-socials-item--youtube"></a>
+                </div>
+            </div>
+            <!-- Раздел с навигацией в Подвале -->
+            <div class="footer__explore">
+                <!-- Заголовок -->
+                <h2 class="footer__title">Explore</h2>
+                <!-- Ссылки в разделе с навигацией в Подвале -->
+                <div class="footer__explore-links">
+                    <button class="footer__explore-link" id="ToHome">Home</button>
+                    <button class="footer__explore-link" id="ToAboutUs">About us</button>
+                    <button class="footer__explore-link" id="ToContactUs">Contact us</button>
+                    <button class="footer__explore-link" id="ToBlog">Blog</button>
+                    <button class="footer__explore-link" id="ToTeam">Team</button>
+                    <button class="footer__explore-link" id="ToOurMenu">Our Menu</button>
+                </div>
+            </div>
+            <!-- Раздел с контактной информацией в Подвале -->
+            <div class="footer__contact-us">
+                <!-- Заголовок -->
+                <h2 class="footer__title">Contact us</h2>
+                <!-- Список элементов с контактной информацией -->
+                <ul class="footer__contact-us-items">
+                    <li class="footer__contact-us-item footer__contact-us-item--location">3rd Floor, Office 45</li>
+                    <li class="footer__contact-us-item footer__contact-us-item--call">00965 - 96659986</li>
+                    <li class="footer__contact-us-item footer__contact-us-item--sms">M.Alyaqout@4house.Co</li>
+                    <li class="footer__contact-us-item footer__contact-us-item--watch">Sun - Sat / 10:00 AM - 8:00 PM
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
